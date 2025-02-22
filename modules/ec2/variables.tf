@@ -11,7 +11,7 @@ variable "subnet" {
 }
 
 variable "associate_public_ip_address" {
-  type = bool
+  type    = bool
   default = false
 }
 
@@ -21,7 +21,7 @@ variable "security_groups" {
 }
 
 variable "user_data" {
-  type = string
+  type    = string
   default = null
 }
 
@@ -30,6 +30,6 @@ variable "instance_name" {
 }
 
 variable "key_name" {
-  type = string
+  type    = string
   default = null
 }
